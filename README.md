@@ -1,2 +1,66 @@
-# GlucoSurf
-visual analytics study based on 3D surface plots that jointly encode sugar intake dose, temporal evolution, and glucose response magnitude to characterize free-living postprandial interstitial glucose responses.
+# GlucoSurf: Interactive Visualization of Glucose Dynamics
+
+GlucoSurf is a visualization and analysis framework designed to explore glucose dynamics through intuitive and interactive representations. It enables researchers and practitioners to better understand temporal patterns, postprandial responses, and variabilityin glucose data.
+
+## Features
+
+- Interactive visualization
+  - Explore glucose trajectories in 3D space  
+  - Visualize temporal and postprandial patterns  
+
+- Pattern discovery
+  - Identify glucose fluctuations and anomalies  
+  - Analyze variability across individuals and conditions  
+
+## Motivation
+Understanding glucose dynamics is important for:
+- Diabetes management  
+- Personalized health monitoring  
+- Behavioral intervention design  
+
+Traditional time-series plots often fail to capture multi-dimensional relationships in glucose data. GlucoSurf addresses this by transforming glucose signals into **interpretable visual surfaces**, enabling deeper insights into physiological processes.
+
+## Repository Structure
+
+GlucoSurf/
+
+├── data/ # Sample or placeholder datasets
+
+├── 3DVis_figs/ # Interactive 3D surface plots
+
+├── notebooks/ # Jupyter notebooks for demos and experiments
+
+└── README.md
+
+## Research Context
+
+This project is part of ongoing research on:
+
+- Wearable-based health monitoring
+- AI-driven physiological modeling
+- Human-centered visualization of biomedical data
+
+The goal is to bridge data-driven insights and user-understandable representations for real-world health applications.
+
+## Citation
+If you use this project in your research, please cite:
+```
+Liang Z,  Lococo M, Karunarathna TS. (2026) Visual Analytics of Sugar Intake and Postprandial Interstitial Glucose Dynamics Using 3D Surface Plots. In Proceedings of The The 10th International Conference on Medical and Health Informatics (ICMHI 2026), Kyoto, Japan.
+```
+
+### BibTeX
+```bibtex
+@inproceedings{liang2026glucosurf,
+  title={Visual Analytics of Sugar Intake and Postprandial Interstitial Glucose Dynamics Using 3D Surface Plots},
+  author={Liang, Zilu and Lococo, Marco and Karunarathna, Thilini S.},
+  booktitle={Proceedings of the 10th International Conference on Medical and Health Informatics (ICMHI 2026)},
+  year={2026},
+  address={Kyoto, Japan}
+}
+```
+
+## Contributing
+We welcome contributions!
+1. Fork the repository
+2. Create a new branch
+3. Submit a pull request
