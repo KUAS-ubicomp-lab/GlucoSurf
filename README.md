@@ -22,15 +22,13 @@ Traditional time-series plots often fail to capture multi-dimensional relationsh
 
 ## Repository Structure
 
-GlucoSurf/
+| Folder/File      | Description |
+|----------------|------------|
+| `data/`        | Sample or placeholder datasets |
+| `3DVis_figs/`  | Interactive 3D surface plots |
+| `notebooks/`   | Jupyter notebooks for demos and experiments |
+| `README.md`    | Project documentation |
 
-├── data/ # Sample or placeholder datasets
-
-├── 3DVis_figs/ # Interactive 3D surface plots
-
-├── notebooks/ # Jupyter notebooks for demos and experiments
-
-└── README.md
 
 ## Research Context
 
