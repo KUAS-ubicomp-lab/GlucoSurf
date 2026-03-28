@@ -24,11 +24,11 @@ Traditional time-series plots often fail to capture multi-dimensional relationsh
 
 | Folder/File      | Description |
 |----------------|------------|
-| `data/`        | Sample or placeholder datasets |
-| `3DVis_figs/`  | Interactive 3D surface plots |
-| `notebooks/`   | Jupyter notebooks for demos and experiments |
+| `3DVis_figs/`  | 3D glucose surface visualizations |
+| `.gitignore`    | Specifies files ignored by Git |
+| `GlucoSurf.ipynb`   | Main notebook for data preprocessing and visualization generation |
+| `LICENSE`    | Project license |
 | `README.md`    | Project documentation |
-
 
 ## Research Context
 
