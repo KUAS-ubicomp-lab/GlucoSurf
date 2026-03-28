@@ -1,6 +1,10 @@
 # GlucoSurf: Interactive Visualization of Glucose Dynamics
 
-GlucoSurf is a visualization and analysis framework designed to explore glucose dynamics through intuitive and interactive representations. It enables better understand temporal patterns, postprandial responses, and variabilityin glucose data. Understanding glucose dynamics is important for diabetes management, personalized health monitoring, and behavioral intervention design. However, traditional time-series plots often fail to capture multi-dimensional relationships in glucose data. GlucoSurf addresses this by transforming glucose signals into interpretable 2D/3D visual surfaces, which enables deeper insights into physiological processes.
+GlucoSurf is a visualization and analysis framework designed to explore glucose dynamics through intuitive and interactive representations. It enables a better understanding of temporal patterns, postprandial responses, and variability in glucose data.
+
+Understanding glucose dynamics is essential for diabetes management, personalized health monitoring, and the design of behavioral interventions. However, traditional time-series plots often fail to capture the multi-dimensional relationships inherent in glucose data.
+
+To address this limitation, GlucoSurf transforms glucose signals into 2D and 3D visual surfaces. These interactive visualizations allow users to manipulate the plots (e.g., rotate, zoom in/out) and examine them from multiple perspectives, which facilitate deeper insights into postprandial glucose dynamics.
 
 ## Features
 
@@ -25,11 +29,13 @@ GlucoSurf is a visualization and analysis framework designed to explore glucose 
 
 | Folder/File      | Description |
 |----------------|------------|
-| `3DVis_figs/`  | 3D glucose surface visualizations |
+| `3DVis_figs/`  | Interactive 3D glucose surface visualizations |
 | `.gitignore`    | Specifies files ignored by Git |
 | `GlucoSurf.ipynb`   | Main notebook for data preprocessing and visualization generation |
 | `LICENSE`    | Project license |
 | `README.md`    | Project documentation |
+
+This study utilized the [BIG IDEAs dataset](https://www.nature.com/articles/s41746-021-00465-w). Due to copyright restrictions, the dataset is not included in this repository. The data can be accessed and downloaded from [PhysioNet](https://physionet.org/content/big-ideas-glycemic-wearable/1.1.2/). 
 
 ## Research Context
 
@@ -43,9 +49,8 @@ The goal is to bridge data-driven insights and user-understandable representatio
 
 ## Citation
 If you use this project in your research, please cite:
-```
-Liang Z,  Lococo M, Karunarathna TS. (2026) Visual Analytics of Sugar Intake and Postprandial Interstitial Glucose Dynamics Using 3D Surface Plots. In Proceedings of The The 10th International Conference on Medical and Health Informatics (ICMHI 2026), Kyoto, Japan.
-```
+
+Liang Z,  Lococo M, Karunarathna TS. (2026) [Visual Analytics of Sugar Intake and Postprandial Interstitial Glucose Dynamics Using 3D Surface Plots](https://www.researchgate.net/publication/401828019_Visual_Analytics_of_Sugar_Intake_and_Postprandial_Interstitial_Glucose_Dynamics_Using_3D_Surface_Plots). In Proceedings of The The 10th International Conference on Medical and Health Informatics (ICMHI 2026), Kyoto, Japan.
 
 ### BibTeX
 ```bibtex
